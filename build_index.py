@@ -1,14 +1,14 @@
 import faiss
 import pickle
 import re
-from sentence_transformers import SentenceTransformer
+import os
+import numpy as np
+from fastembed import TextEmbedding
 from pathlib import Path
 
-MODEL_NAME = "all-MiniLM-L6-v2"
+MODEL_NAME = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 INDEX_PATH = "faiss_store/index.faiss"
 META_PATH = "faiss_store/meta.pkl"
-
-model = SentenceTransformer(MODEL_NAME)
 
 text = Path("data/hackathon.txt").read_text(encoding="utf-8")
 
@@ -41,7 +41,9 @@ def chunk_text(text, target_size=700, overlap_sentences=1):
 
 chunks = chunk_text(text)
 
-embeddings = model.encode(chunks, normalize_embeddings=True)
+model = TextEmbedding(model_name=MODEL_NAME)
+embeddings_list = list(model.embed(chunks))
+embeddings = np.vstack(embeddings_list).astype("float32")
 
 dimension = embeddings.shape[1]
 index = faiss.IndexFlatIP(dimension)

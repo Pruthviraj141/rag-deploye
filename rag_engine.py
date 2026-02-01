@@ -4,9 +4,11 @@ import os
 import re
 import difflib
 import logging
+from functools import lru_cache
 from typing import List, Tuple, Optional
+import numpy as np
 import requests
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -17,16 +19,29 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "mistralai/mistral-7b-instruct")
 OPENROUTER_TEMPERATURE = float(os.getenv("OPENROUTER_TEMPERATURE", "0.2"))
 OPENROUTER_TIMEOUT = int(os.getenv("OPENROUTER_TIMEOUT", "30"))
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 
 INDEX_PATH = "faiss_store/index.faiss"
 META_PATH = "faiss_store/meta.pkl"
 DEFAULT_TOP_K = int(os.getenv("RAG_TOP_K", "6"))
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
-index = faiss.read_index(INDEX_PATH)
+@lru_cache(maxsize=1)
+def _get_embedder() -> TextEmbedding:
+    return TextEmbedding(model_name=EMBEDDING_MODEL)
 
-with open(META_PATH, "rb") as f:
-    documents = pickle.load(f)
+@lru_cache(maxsize=1)
+def _get_index():
+    return faiss.read_index(INDEX_PATH)
+
+@lru_cache(maxsize=1)
+def _get_documents() -> List[str]:
+    with open(META_PATH, "rb") as f:
+        return pickle.load(f)
+
+def _embed_texts(texts: List[str]) -> np.ndarray:
+    embedder = _get_embedder()
+    vectors = list(embedder.embed(texts))
+    return np.vstack(vectors).astype("float32")
 
 def _keyword_overlap_score(query: str, text: str) -> float:
     q_tokens = set(_tokenize(query))
@@ -36,7 +51,9 @@ def _keyword_overlap_score(query: str, text: str) -> float:
     return len(q_tokens.intersection(t_tokens)) / max(len(q_tokens), 1)
 
 def retrieve(query: str, top_k: int = DEFAULT_TOP_K) -> List[str]:
-    q_embedding = model.encode([query], normalize_embeddings=True)
+    q_embedding = _embed_texts([query])
+    index = _get_index()
+    documents = _get_documents()
     scores, indices = index.search(q_embedding, max(top_k * 3, top_k))
 
     candidates = []
@@ -197,7 +214,7 @@ def ask_llm(question: str) -> str:
     prompt = _build_prompt(question, context)
 
     if not OPENROUTER_API_KEY:
-        return _clean_output(_extract_answer(question, context_blocks, documents))
+        return _clean_output(_extract_answer(question, context_blocks, _get_documents()))
 
     try:
         response = requests.post(
@@ -218,18 +235,18 @@ def ask_llm(question: str) -> str:
         )
         if response.status_code != 200:
             logger.warning("OpenRouter error status: %s", response.status_code)
-            return _clean_output(_extract_answer(question, context_blocks, documents))
+            return _clean_output(_extract_answer(question, context_blocks, _get_documents()))
 
         data = response.json()
         content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
         if not content:
-            return _clean_output(_extract_answer(question, context_blocks, documents))
+            return _clean_output(_extract_answer(question, context_blocks, _get_documents()))
 
         if content.strip().lower() == "information not available":
-            fallback = _extract_answer(question, context_blocks, documents)
+            fallback = _extract_answer(question, context_blocks, _get_documents())
             return _clean_output(fallback)
 
         return _clean_output(content)
     except requests.RequestException as exc:
         logger.warning("OpenRouter request failed: %s", exc)
-        return _clean_output(_extract_answer(question, context_blocks, documents))
+        return _clean_output(_extract_answer(question, context_blocks, _get_documents()))

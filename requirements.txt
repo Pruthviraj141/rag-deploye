@@ -1,6 +1,7 @@
 faiss-cpu
 fastapi
 uvicorn
-sentence-transformers
+fastembed
+numpy
 python-dotenv
 requests
