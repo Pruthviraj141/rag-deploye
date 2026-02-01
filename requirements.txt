@@ -1,0 +1,6 @@
+faiss-cpu
+fastapi
+uvicorn
+sentence-transformers
+python-dotenv
+requests

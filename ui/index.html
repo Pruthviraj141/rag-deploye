@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PICT InC 2026 Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">⚡</div>
+        <div>
+          <h1>PICT InC 2026 Assistant</h1>
+          <p>Ask anything about the event. Works even with typos.</p>
+        </div>
+      </div>
+      <div class="status" id="status">
+        <span class="status-dot"></span>
+        Ready
+      </div>
+    </header>
+
+    <main class="chat" id="chat">
+      <div class="message bot">
+        <div class="bubble">
+          Hi! Ask me about event dates, registration, eligibility, fees, or any section in the document.
+        </div>
+      </div>
+    </main>
+
+    <section class="examples">
+      <p>Try:</p>
+      <div class="chips">
+        <button class="chip">What are the event dates?</button>
+        <button class="chip">registraion fee for concepts?</button>
+        <button class="chip">who can participate in pradnya?</button>
+        <button class="chip">Where is the venue?</button>
+      </div>
+    </section>
+
+    <form class="composer" id="composer">
+      <input
+        id="question"
+        type="text"
+        placeholder="Type your question..."
+        autocomplete="off"
+      />
+      <button type="submit" id="send">Send</button>
+    </form>
+
+    <footer class="footer">
+      <span>Powered by FAISS + Sentence Transformers</span>
+      <span>FastAPI RAG • 2026</span>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

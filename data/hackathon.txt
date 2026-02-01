@@ -1,0 +1,260 @@
+---
+id: pict_inc_2026
+title: PICT InC 2026 — Impetus, Concepts and Pradnya (39th Edition)
+source: Pune Institute of Computer Technology (PICT), Pune
+date_created: 2026-03-20
+language: en
+tags: PICT, InC, hackathon, project-exhibition, programming-contest, Pune, technical-event
+---
+
+RAG DOCUMENT: PICT InC 2026 – OFFICIAL EVENT INFORMATION
+========================================================
+
+EVENT NAME
+----------
+PICT InC 2026
+Impetus, Concepts and Pradnya
+39th Edition
+
+ORGANIZED BY
+------------
+Pune Institute of Computer Technology (PICT), Pune
+
+VENUE
+-----
+Pune Institute of Computer Technology
+Sr. No. 27, Near Trimurti Chowk
+Dhankawadi, Pune 411043
+
+EVENT DATES
+-----------
+20 March 2026
+21 March 2026
+22 March 2026
+
+WEBSITE AND CONTACT
+-------------------
+Website: http://www.pictinc.org
+Email: inc2k26@gmail.com
+
+INTRODUCTION
+------------
+PICT InC (Impetus and Concepts) is the flagship technical event of Pune Institute of Computer Technology. It is an international-level inter-collegiate competition designed to promote innovation, creativity, and technical excellence among engineering students.
+
+Over the years, InC has evolved from a small inter-departmental competition into a nationally and internationally recognized platform that attracts students, academicians, startups, and industry professionals.
+
+InC bridges the gap between academia and industry by providing students with opportunities to present real-world projects, receive expert feedback, gain mentorship, and secure internships or job offers through direct interaction with industry leaders.
+
+OBJECTIVES OF InC
+-----------------
+The objectives of InC are to:
+- Provide a platform for emerging technical talent
+- Encourage innovative thinking and problem-solving
+- Facilitate interaction between students and industry professionals
+- Promote entrepreneurship among students
+- Transform academic projects into real-world deployable solutions
+
+EVENTS AT InC 2026
+------------------
+InC 2026 consists of four major events:
+1. CONCEPTS – Final Year Project Exhibition
+2. IMPETUS – Project Competition for FE, SE, and TE
+3. PRADNYA – Programming Contest
+4. TECHFIESTA – International Hackathon
+
+========================================================
+CONCEPTS — FINAL YEAR PROJECT COMPETITION
+========================================================
+
+ELIGIBILITY
+-----------
+- Only Final Year (BE) Engineering students
+- All engineering branches allowed
+- All team members must belong to the same institute
+
+TEAM STRUCTURE
+--------------
+- Minimum 1 member
+- Maximum 5 members
+
+REGISTRATION FEE
+----------------
+INR 500 per team
+
+PROJECT REQUIREMENTS
+--------------------
+- Project must be fully implemented and functional
+- Idea-only or partially completed projects are not allowed
+- Project must demonstrate innovation, feasibility, and real-world impact
+
+DOMAINS
+-------
+- Application Development
+- Web Applications
+- Mobile Applications (Android)
+- Database Systems
+- Computer Networks
+- Internet of Things (IoT)
+- Information and Network Security
+- Digital Signal Processing
+- Image, Speech, and Video Processing
+- Embedded Systems
+- VLSI Systems
+- Artificial Intelligence
+- Machine Learning
+- Pattern Recognition
+- Bio Signal Processing
+- Biomedical Applications
+- Bioinformatics
+- Emerging and interdisciplinary technologies
+
+EVALUATION PROCESS
+------------------
+- Minimum 3 industry judges per project
+- Evaluation may occur in single or multiple sessions
+- Teams must attend all assigned sessions
+
+JUDGING CRITERIA
+----------------
+- Innovation and originality
+- Technical complexity and feasibility
+- Quality of implementation
+- Scalability and real-world relevance
+- Presentation and demonstration quality
+
+PRESENTATION MODE
+-----------------
+- Pune participants: Offline at PICT campus
+- Outside Pune: Online via Microsoft Teams or Google Meet
+
+RULES
+-----
+- All team members must be present
+- Absence in any assigned session leads to disqualification
+- If domain entries are insufficient, only e-certificates will be issued
+- Judges’ and organizers’ decisions are final
+
+========================================================
+IMPETUS — PROJECT COMPETITION FOR FE, SE, TE
+========================================================
+
+ELIGIBILITY
+-----------
+- FE, SE, and TE Engineering students
+- All branches allowed
+
+TEAM STRUCTURE
+--------------
+- Minimum 1 member
+- Maximum 5 members
+
+REGISTRATION FEE
+----------------
+INR 100 per team
+
+PROJECT REQUIREMENTS
+--------------------
+- FE/SE: Prototype or 70–80% completed projects allowed
+- TE: Fully implemented projects only
+- Idea-only projects not allowed for TE
+
+DOMAINS
+-------
+- Application Development
+- Web and Database Applications
+- Communication and Networking
+- Security Systems
+- Internet of Things (IoT)
+- Image Processing and DSP
+- Embedded Systems and VLSI
+- Artificial Intelligence and Machine Learning
+- Pattern Recognition
+- Bio Signal Processing
+- Biomedical and Bioinformatics
+- Emerging technologies
+
+EVALUATION
+----------
+- Minimum 2 industry judges
+- One or two evaluation sessions
+
+PRESENTATION MODE
+-----------------
+- Pune participants: Offline
+- Outside Pune: Online (Teams / Meet)
+
+RULES
+-----
+- All members must attend presentation
+- Missing the slot results in disqualification
+- Judges’ decisions are final
+- All teams receive e-certificates
+
+========================================================
+PRADNYA — PROGRAMMING CONTEST
+========================================================
+
+ELIGIBILITY
+-----------
+Junior Category:
+- First Year and Second Year undergraduate students
+
+Senior Category:
+- Third Year and Final Year undergraduate students
+
+TEAM STRUCTURE
+--------------
+- Maximum 2 members per team
+
+REGISTRATION FEE
+----------------
+INR 100 per team
+
+EVENT STRUCTURE
+---------------
+Round 1: MCQ Round
+- Programming fundamentals, logic, problem-solving
+- Pune district: Offline
+- Outside Pune: Hybrid
+
+Wildcard Round
+- Open to junior and senior categories
+- Top 5 teams from each category qualify directly
+
+Round 2: Programming Round
+- Timed coding contest
+- Any programming language allowed
+- Different problem sets for junior and senior
+
+Round 3: Judging Round
+- Top 5 teams per category evaluated
+- Judging based on correctness, efficiency, and approach
+- Top 3 teams selected per category
+
+RULES
+-----
+- Pune participants: Offline mandatory
+- Outside Pune: Hybrid allowed
+- Judges’ decisions are final
+
+========================================================
+TECHFIESTA — INTERNATIONAL HACKATHON
+========================================================
+
+SUMMARY
+-------
+- International hackathon conducted under InC 2026
+- Detailed rules, team size, and duration announced separately
+- Refer official website or contact organizers for updates
+
+========================================================
+GENERAL INFORMATION
+========================================================
+
+- All participants must follow event schedules strictly
+- Disqualification applies for absence or rule violations
+- E-certificates provided to participants
+- Prize money subject to domain participation
+- Organizers’ and judges’ decisions are final and binding
+
+END OF DOCUMENT
