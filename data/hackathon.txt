@@ -1,260 +1,235 @@
----
-id: pict_inc_2026
-title: PICT InC 2026 — Impetus, Concepts and Pradnya (39th Edition)
-source: Pune Institute of Computer Technology (PICT), Pune
-date_created: 2026-03-20
-language: en
-tags: PICT, InC, hackathon, project-exhibition, programming-contest, Pune, technical-event
----
+PICT InC 2026 is the flagship technical event of Pune Institute of Computer Technology (PICT), Pune.
 
-RAG DOCUMENT: PICT InC 2026 – OFFICIAL EVENT INFORMATION
-========================================================
+PICT InC 2026 is the 39th edition of InC, also known as Impetus, Concepts and Pradnya.
 
-EVENT NAME
-----------
-PICT InC 2026
-Impetus, Concepts and Pradnya
-39th Edition
+PICT InC 2026 event dates are March 20, 2026, March 21, 2026, and March 22, 2026.
 
-ORGANIZED BY
-------------
-Pune Institute of Computer Technology (PICT), Pune
+PICT InC 2026 venue is Pune Institute of Computer Technology, Sr. No. 27, Near Trimurti Chowk, Dhankawadi, Pune 411043.
 
-VENUE
------
-Pune Institute of Computer Technology
-Sr. No. 27, Near Trimurti Chowk
-Dhankawadi, Pune 411043
+PICT InC 2026 is organized by Pune Institute of Computer Technology (PICT), Pune.
 
-EVENT DATES
------------
-20 March 2026
-21 March 2026
-22 March 2026
+The official website of PICT InC 2026 is http://www.pictinc.org.
 
-WEBSITE AND CONTACT
--------------------
-Website: http://www.pictinc.org
-Email: inc2k26@gmail.com
+The official contact email for PICT InC 2026 is inc2k26@gmail.com.
 
-INTRODUCTION
-------------
-PICT InC (Impetus and Concepts) is the flagship technical event of Pune Institute of Computer Technology. It is an international-level inter-collegiate competition designed to promote innovation, creativity, and technical excellence among engineering students.
+PICT InC 2026 is an international-level inter-collegiate technical competition that promotes innovation, creativity, and technical excellence among engineering students.
 
-Over the years, InC has evolved from a small inter-departmental competition into a nationally and internationally recognized platform that attracts students, academicians, startups, and industry professionals.
+PICT InC bridges the gap between academia and industry by allowing students to present real-world projects and receive expert feedback.
 
-InC bridges the gap between academia and industry by providing students with opportunities to present real-world projects, receive expert feedback, gain mentorship, and secure internships or job offers through direct interaction with industry leaders.
+PICT InC provides mentorship opportunities and enables students to interact with industry professionals.
 
-OBJECTIVES OF InC
------------------
-The objectives of InC are to:
-- Provide a platform for emerging technical talent
-- Encourage innovative thinking and problem-solving
-- Facilitate interaction between students and industry professionals
-- Promote entrepreneurship among students
-- Transform academic projects into real-world deployable solutions
+PICT InC provides a platform for emerging technical talent and encourages innovative thinking and problem-solving.
 
-EVENTS AT InC 2026
-------------------
-InC 2026 consists of four major events:
-1. CONCEPTS – Final Year Project Exhibition
-2. IMPETUS – Project Competition for FE, SE, and TE
-3. PRADNYA – Programming Contest
-4. TECHFIESTA – International Hackathon
+PICT InC facilitates interaction between students and industry professionals.
 
-========================================================
-CONCEPTS — FINAL YEAR PROJECT COMPETITION
-========================================================
+PICT InC promotes entrepreneurship among students.
 
-ELIGIBILITY
------------
-- Only Final Year (BE) Engineering students
-- All engineering branches allowed
-- All team members must belong to the same institute
+PICT InC helps convert academic projects into real-world deployable solutions.
 
-TEAM STRUCTURE
---------------
-- Minimum 1 member
-- Maximum 5 members
+PICT InC 2026 consists of four major events: CONCEPTS, IMPETUS, PRADNYA, and TECHFIESTA.
 
-REGISTRATION FEE
-----------------
-INR 500 per team
+CONCEPTS is the Final Year Project Exhibition at PICT InC 2026.
 
-PROJECT REQUIREMENTS
---------------------
-- Project must be fully implemented and functional
-- Idea-only or partially completed projects are not allowed
-- Project must demonstrate innovation, feasibility, and real-world impact
+CONCEPTS is open to Final Year BE engineering students only.
 
-DOMAINS
--------
-- Application Development
-- Web Applications
-- Mobile Applications (Android)
-- Database Systems
-- Computer Networks
-- Internet of Things (IoT)
-- Information and Network Security
-- Digital Signal Processing
-- Image, Speech, and Video Processing
-- Embedded Systems
-- VLSI Systems
-- Artificial Intelligence
-- Machine Learning
-- Pattern Recognition
-- Bio Signal Processing
-- Biomedical Applications
-- Bioinformatics
-- Emerging and interdisciplinary technologies
+CONCEPTS is open to all engineering branches.
 
-EVALUATION PROCESS
-------------------
-- Minimum 3 industry judges per project
-- Evaluation may occur in single or multiple sessions
-- Teams must attend all assigned sessions
+CONCEPTS requires all team members to belong to the same institute.
 
-JUDGING CRITERIA
-----------------
-- Innovation and originality
-- Technical complexity and feasibility
-- Quality of implementation
-- Scalability and real-world relevance
-- Presentation and demonstration quality
+CONCEPTS minimum team size is 1 member per team.
 
-PRESENTATION MODE
------------------
-- Pune participants: Offline at PICT campus
-- Outside Pune: Online via Microsoft Teams or Google Meet
+CONCEPTS maximum team size is 5 members per team.
 
-RULES
------
-- All team members must be present
-- Absence in any assigned session leads to disqualification
-- If domain entries are insufficient, only e-certificates will be issued
-- Judges’ and organizers’ decisions are final
+CONCEPTS registration fee is INR 300 per team.
 
-========================================================
-IMPETUS — PROJECT COMPETITION FOR FE, SE, TE
-========================================================
+CONCEPTS requires projects to be fully implemented and functional.
 
-ELIGIBILITY
------------
-- FE, SE, and TE Engineering students
-- All branches allowed
+CONCEPTS does not allow idea-only projects.
 
-TEAM STRUCTURE
---------------
-- Minimum 1 member
-- Maximum 5 members
+CONCEPTS does not allow partially completed projects.
 
-REGISTRATION FEE
-----------------
-INR 100 per team
+CONCEPTS domain: Application Development.
 
-PROJECT REQUIREMENTS
---------------------
-- FE/SE: Prototype or 70–80% completed projects allowed
-- TE: Fully implemented projects only
-- Idea-only projects not allowed for TE
+CONCEPTS domain: Web Applications.
 
-DOMAINS
--------
-- Application Development
-- Web and Database Applications
-- Communication and Networking
-- Security Systems
-- Internet of Things (IoT)
-- Image Processing and DSP
-- Embedded Systems and VLSI
-- Artificial Intelligence and Machine Learning
-- Pattern Recognition
-- Bio Signal Processing
-- Biomedical and Bioinformatics
-- Emerging technologies
+CONCEPTS domain: Mobile Applications.
 
-EVALUATION
-----------
-- Minimum 2 industry judges
-- One or two evaluation sessions
+CONCEPTS domain: Database Systems.
 
-PRESENTATION MODE
------------------
-- Pune participants: Offline
-- Outside Pune: Online (Teams / Meet)
+CONCEPTS domain: Computer Networks.
 
-RULES
------
-- All members must attend presentation
-- Missing the slot results in disqualification
-- Judges’ decisions are final
-- All teams receive e-certificates
+CONCEPTS domain: Internet of Things.
 
-========================================================
-PRADNYA — PROGRAMMING CONTEST
-========================================================
+CONCEPTS domain: Information and Network Security.
 
-ELIGIBILITY
------------
-Junior Category:
-- First Year and Second Year undergraduate students
+CONCEPTS domain: Digital Signal Processing.
 
-Senior Category:
-- Third Year and Final Year undergraduate students
+CONCEPTS domain: Image Processing.
 
-TEAM STRUCTURE
---------------
-- Maximum 2 members per team
+CONCEPTS domain: Speech Processing.
 
-REGISTRATION FEE
-----------------
-INR 100 per team
+CONCEPTS domain: Video Processing.
 
-EVENT STRUCTURE
----------------
-Round 1: MCQ Round
-- Programming fundamentals, logic, problem-solving
-- Pune district: Offline
-- Outside Pune: Hybrid
+CONCEPTS domain: Embedded Systems.
 
-Wildcard Round
-- Open to junior and senior categories
-- Top 5 teams from each category qualify directly
+CONCEPTS domain: VLSI Systems.
 
-Round 2: Programming Round
-- Timed coding contest
-- Any programming language allowed
-- Different problem sets for junior and senior
+CONCEPTS domain: Artificial Intelligence.
 
-Round 3: Judging Round
-- Top 5 teams per category evaluated
-- Judging based on correctness, efficiency, and approach
-- Top 3 teams selected per category
+CONCEPTS domain: Machine Learning.
 
-RULES
------
-- Pune participants: Offline mandatory
-- Outside Pune: Hybrid allowed
-- Judges’ decisions are final
+CONCEPTS domain: Pattern Recognition.
 
-========================================================
-TECHFIESTA — INTERNATIONAL HACKATHON
-========================================================
+CONCEPTS domain: Bio Signal Processing.
 
-SUMMARY
--------
-- International hackathon conducted under InC 2026
-- Detailed rules, team size, and duration announced separately
-- Refer official website or contact organizers for updates
+CONCEPTS domain: Biomedical Applications.
 
-========================================================
-GENERAL INFORMATION
-========================================================
+CONCEPTS domain: Bioinformatics.
 
-- All participants must follow event schedules strictly
-- Disqualification applies for absence or rule violations
-- E-certificates provided to participants
-- Prize money subject to domain participation
-- Organizers’ and judges’ decisions are final and binding
+CONCEPTS domain: Emerging Technologies.
 
-END OF DOCUMENT
+CONCEPTS evaluation involves a minimum of three industry judges per project.
+
+CONCEPTS evaluation may occur in one or multiple sessions.
+
+CONCEPTS requires all teams to attend all assigned evaluation sessions.
+
+CONCEPTS judging criteria: Innovation and originality.
+
+CONCEPTS judging criteria: Technical complexity and feasibility.
+
+CONCEPTS judging criteria: Quality of implementation and scalability.
+
+CONCEPTS judging criteria: Real-world relevance and presentation quality.
+
+CONCEPTS presentation mode for Pune participants is offline at the PICT campus.
+
+CONCEPTS presentation mode for participants outside Pune is online via Microsoft Teams or Google Meet.
+
+CONCEPTS rule: All team members must be present during evaluation.
+
+CONCEPTS rule: Absence in any assigned session leads to disqualification.
+
+CONCEPTS rule: If domain entries are insufficient, only e-certificates are issued.
+
+CONCEPTS rule: Judges' and organizers' decisions are final.
+
+IMPETUS is a project competition at PICT InC 2026 for First Year, Second Year, and Third Year engineering students.
+
+IMPETUS is open to all engineering branches.
+
+IMPETUS minimum team size is 1 member per team.
+
+IMPETUS maximum team size is 5 members per team.
+
+IMPETUS registration fee is INR 100 per team.
+
+IMPETUS First Year and Second Year students can submit prototypes or 70-80% completed projects.
+
+IMPETUS Third Year students must submit fully implemented projects.
+
+IMPETUS does not allow idea-only projects for Third Year students.
+
+IMPETUS domain: Application Development.
+
+IMPETUS domain: Web and Database Applications.
+
+IMPETUS domain: Communication and Networking.
+
+IMPETUS domain: Security Systems.
+
+IMPETUS domain: Internet of Things.
+
+IMPETUS domain: Image Processing.
+
+IMPETUS domain: Digital Signal Processing.
+
+IMPETUS domain: Embedded Systems.
+
+IMPETUS domain: VLSI.
+
+IMPETUS domain: Artificial Intelligence.
+
+IMPETUS domain: Machine Learning.
+
+IMPETUS domain: Pattern Recognition.
+
+IMPETUS domain: Bio Signal Processing.
+
+IMPETUS domain: Biomedical Applications.
+
+IMPETUS domain: Bioinformatics.
+
+IMPETUS domain: Emerging Technologies.
+
+IMPETUS evaluation involves a minimum of two industry judges per project.
+
+IMPETUS evaluation may consist of one or two evaluation sessions.
+
+IMPETUS presentation mode for Pune participants is offline.
+
+IMPETUS presentation mode for participants outside Pune is online via Microsoft Teams or Google Meet.
+
+IMPETUS rule: All team members must attend the presentation.
+
+IMPETUS rule: Missing the assigned slot results in disqualification.
+
+IMPETUS rule: All teams receive e-certificates.
+
+IMPETUS rule: Judges' decisions are final.
+
+PRADNYA is the programming contest at PICT InC 2026.
+
+PRADNYA has two categories: Junior Category and Senior Category.
+
+PRADNYA Junior Category is for First Year and Second Year undergraduate students.
+
+PRADNYA Senior Category is for Third Year and Final Year undergraduate students.
+
+PRADNYA maximum team size is 2 members per team.
+
+PRADNYA registration fee is INR 100 per team.
+
+PRADNYA Round 1 is the MCQ round testing programming fundamentals, logic, and problem-solving skills.
+
+PRADNYA Round 1 presentation mode for Pune participants is offline.
+
+PRADNYA Round 1 presentation mode for outside Pune participants is hybrid mode.
+
+PRADNYA Wildcard Round is open to both Junior and Senior categories.
+
+PRADNYA Wildcard Round: Top five teams from each category may qualify directly.
+
+PRADNYA Round 2 is the Programming Round, a timed coding contest.
+
+PRADNYA Round 2 allows any programming language.
+
+PRADNYA Round 2 has different problem sets for Junior and Senior categories.
+
+PRADNYA Round 3 is the Judging Round for the top five teams from each category.
+
+PRADNYA Round 3 evaluation is based on correctness, efficiency, and approach.
+
+PRADNYA Round 3: Top three teams are selected per category.
+
+PRADNYA rule: Pune participants must attend offline.
+
+PRADNYA rule: Outside Pune participants are allowed hybrid mode.
+
+PRADNYA rule: Judges' decisions are final.
+
+TECHFIESTA is an international hackathon conducted under PICT InC 2026.
+
+TECHFIESTA details such as team size, duration, rules, and prizes are announced separately.
+
+TECHFIESTA participants should refer to the official website or contact organizers for updates.
+
+All PICT InC 2026 participants must follow event schedules strictly.
+
+Disqualification applies for absence or rule violations at PICT InC 2026.
+
+E-certificates are provided to participants at PICT InC 2026.
+
+Prize money at PICT InC 2026 is subject to domain participation.
+
+Organizers' and judges' decisions are final and binding at PICT InC 2026.
